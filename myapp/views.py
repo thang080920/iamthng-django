@@ -11,7 +11,7 @@ BASE_IMAGE_URL = 'https://images.cragislist.org/{}_300x300.jgp'
 
 
 def home(request):
-    return render(request, 'base.html')
+    return render(request, 'myapp/home.html')
 
 
 def new_search(request):

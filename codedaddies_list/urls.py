@@ -19,5 +19,6 @@ from myapp import views
 
 urlpatterns = [
     path('master/', admin.site.urls),
-    path('', include('myapp.urls'))
+    path('', include('myapp.urls')),
+    path('todo/', include('todo.urls')),
 ]
